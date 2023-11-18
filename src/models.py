@@ -17,7 +17,7 @@ class User(Base):
     firstName = Column(String(250), nullable=False)
     password = Column(String(250), nullable=False)
     subscriptionDate = Column(String(250), nullable=False)
-    favorites_fk_id = Column(Integer, ForeignKey('favorites.id'))
+    
     
 
 
